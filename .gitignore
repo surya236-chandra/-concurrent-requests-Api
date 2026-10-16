@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Environment and sensitive credential files
+.env
+.env.*
+*.env
+**/.env
+**/.env.*
+!**/.env.example
+
+# Local database data files
+data/
+**/data/
+
+# Production build output
+dist/
+dist-ssr/
+**/dist/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS and Editor files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
